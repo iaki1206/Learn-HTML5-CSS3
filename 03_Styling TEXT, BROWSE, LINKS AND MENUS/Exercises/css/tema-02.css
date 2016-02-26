@@ -1,3 +1,4 @@
+/*
 li:nth-child(1) {
   font-family: "Times News Roman", serif;
 }
@@ -13,8 +14,9 @@ li:nth-child(4) {
 li:nth-child(5) {
   font-family: "Oldtown", fantasy;
 }
+*/
 
-ul {list-style-type: decimal-leading-zero;}
+/* ul {list-style-type: decimal-leading-zero;} */
 
 /* font-style
 p {
@@ -105,3 +107,28 @@ p {
   p {
     text-indent: 15px;
   } */
+
+  /* list-style-type
+  ul {
+    list-style-type: none;
+  } */
+
+  /* ul {list-style-type: decimal-leading-zero;} */
+
+  /* list-style-image
+  li {
+    list-style-image: url("img/iaki.png")
+  } */
+
+  /* list-style-position
+  li, p.blue {
+    list-style-position: outside;
+  }
+  li, p.green {
+    list-style-position: inside;
+  } */
+
+  /* list-style */
+  li, p.blue {
+    list-style: square inside url("img/iaki.png")
+  }
