@@ -1,0 +1,107 @@
+li:nth-child(1) {
+  font-family: "Times News Roman", serif;
+}
+li:nth-child(2) {
+  font-family: "Verdana", sans-serif;
+}
+li:nth-child(3) {
+  font-family: "Courier New", monospace;
+}
+li:nth-child(4) {
+  font-family: "Comic Sans", cursive;
+}
+li:nth-child(5) {
+  font-family: "Oldtown", fantasy;
+}
+
+ul {list-style-type: decimal-leading-zero;}
+
+/* font-style
+p {
+  font-style: italic;
+} */
+
+/*font-weght */
+/*span {
+  color: red;
+}
+span {
+  font-weight: bold;
+}*/
+
+/*font-weght
+span {
+  color: red;
+}
+span {
+  font-weight: 900;
+} */
+
+/* font-size */
+/*p {
+  font-size: 24px;
+}*/
+
+/* font-variant */
+/*p {
+  font-variant: small-caps;
+}*/
+
+/* proprietate-font
+p {
+  font: italic 15px "Comic Sans", cursive;
+}*/
+
+/* regula - @font-face
+@font-face {
+  font-family: "FontleroyBrown"
+  src: url("FontleroyBrown/FontleroyBrown.ttf");
+}
+p {
+  font: 30px "FontleroyBrown"
+  } */
+
+/* text-case
+  .capitalize {
+    text-transform: capitalize;
+  }
+  .lowercase {
+    text-transform: lowercase;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  } */
+
+  /* line-height
+  p {
+    line-height: 50px;
+  } */
+
+  /* letter-spacing
+  p {
+    letter-spacing: 0.8px;
+  } */
+
+  /* word-spacing
+  p {
+    word-spacing: 5px;
+  }  */
+
+  /* tex-align
+  p {
+    text-align: center;
+  } */
+
+  /* text-decoration
+  .green {
+    text-decoration: line-through;
+  }
+  .blue {
+    text-decoration: underline;
+    color: red;
+  } */
+
+  /* text-indent
+  p {
+    text-indent: 15px;
+  } */
