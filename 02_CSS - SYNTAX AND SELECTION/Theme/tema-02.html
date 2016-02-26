@@ -1,0 +1,169 @@
+<!--
+TODO:
+    Sa se creeze fisierul text: tema-02.css in subdirectorul css.
+    Stilurile trebuie sa adreseze taskurile 1 - 8.
+
+    Taskuri:
+    1. Alinierea textului:
+        - toate elementele cu clasa right se aliniaza la dreapta
+        - toate elementele cu clasa center se aliniaza centrat
+        - toate elementele cu clasa justify se aliniaza justify (spatiul
+          uniform distribuit pe orizontala)
+
+    2. Culoarea textului:
+        - toate elementele cu clasele blue sau active se afisaza cu culoarea blue
+        - toate elementele cu clasa green se afisaza cu culoarea green
+        - toate elementele cu clasa red se afisaza cu culoarea red
+
+    3. Stiluri pentru continutul elementului aside:
+        - prima litera din elementele li este afisata cu culoarea verde
+        - dupa fiecare li se adauga un pseudo-element cu continutul: "\00BB"
+          si culoare red.
+
+    4. Stiluri pentru comportament dinamic:
+        - elementele li din meniu si din aside pe :hover au culoarea red si
+          cursorul este pointer (http://www.w3schools.com/cssref/playit.asp?filename=playcss_cursor&preval=url%28smiley.gif%29,url%28myBall.cur%29,auto)
+
+    5. Selectorii nth-child
+        - elementele li din sectiunea s2 de pe pozitii impare au culoare red
+        - elementele li din sectiunea s2 de pe pozitii pare au culoare green
+
+    6. Selectia descendentilor de pe primul nivel
+        - elementele cu clasa item din sectiunea s3 de pe primul nivel
+          sunt afisate cu culoarea blue
+
+    7. Selectia primului succesor
+        - primul succesor al elementului h2 din sectiunea s4 se afisaza cu culoarea green
+
+    8. Selectia succesorilor
+        - succesorii elementului h2 din sectiunea s5 care au clasa sel sunt afisati cu culoarea red
+
+
+    IMPORTANT: Continutul paginii html nu trebuie modificat.
+
+    Se recomanda abordarea taskurilor in ordinea specificata si verificarea
+    continului in browser dupa fiecare modificare.
+
+    Se trimite arhiva zip cu fisierul tema-02.css.
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>HTML5/CSS3 - Tema 02</title>
+        <link rel="stylesheet" href="css/tema-02.css">
+    </head>
+    <body>
+        <header class="right blue">
+            <h1>Header</h1>
+            <h2 class="green">Logo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </header>
+        <nav>
+            <h1>Meniu principal</h1>
+            <ul class="green center">
+                <li class="active">Home</li>
+                <li>Products</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <aside>
+            <h1>Aside - sectiunile paginii</h1>
+            <h2>Categories</h2>
+            <ul class="blue">
+                <li>Books</li>
+                <li>Food</li>
+                <li>Computers</li>
+                <li>Beauty</li>
+            </ul>
+        </aside>
+        <main>
+            <h1 class="green">Continutul principal</h1>
+            <section id="s1">
+                <h2>Text aliniere si culori</h2>
+                <p class="green">Lorem ipsum dolor sit amet, eu quodsi aperiri voluptaria his, et etiam doming duo, alterum civibus placerat pri at. Duo hinc falli legendos an.
+                Quo cibo probatus assentior an. In dolorem tibique quaerendum eam, in duo nibh dicunt dissentiunt. At illud dicant adversarium duo.
+                Has eu eros dissentiunt, no wisi prodesset scribentur sea. Vix in timeam docendi disputando, duo assentior mediocritatem cu, ne vocent
+                omittam voluptua usu. Fabellas sapientem dissentias vel id. Mel id graecis reformidans, ad pri dolore legere. Aeque scripta fierent eum ei,
+                duo ubique ornatus at.
+                </p>
+
+                <p class="right red">Simul recteque ea vix, te vel accusam oportere, usu quodsi fastidii suavitate ne. At per nibh fuisset, ei praesent suscipiantur mel, sed cu
+                epicuri petentium. Idque efficiantur usu eu. Duo in dicat dolor regione, his et impetus saperet appareat. No eam diam omnis, ea libris
+                molestiae per. Ius cu pertinax laboramus, alia meliore ut usu.
+                </p>
+
+                <p class="justify">Eu pri intellegat rationibus, an meis primis erroribus nam, hinc graece id nam. At feugait omnesque mea, idque delicata definitionem at vix.
+                Vim diceret democritum ad. Inani deterruisset his in. An tation bonorum per, pri te dicta exerci.
+                An facete aliquid apeirian mei, cu usu nostro pertinax, scripta debitis duo et. Solum soleat tincidunt ei qui. Facer legendos no has, pro liber
+                persequeris et. Vix suas wisi docendi ut.
+                </p>
+            </section>
+            <section id="s2">
+                <h2>Pseudo clase nth-child</h2>
+                <ol>
+                    <li>Lorem</li>
+                    <li>Ipsum</li>
+                    <li>Dolor</li>
+                    <li>Sit</li>
+                </ol>
+            </section>
+            <section id="s3">
+                <h2>Selectia descendentilor de primul nivel</h2>
+
+                <p class="item">Simul recteque ea vix, te vel accusam oportere, usu quodsi fastidii suavitate ne. At per nibh fuisset, ei praesent suscipiantur mel, sed cu
+                epicuri petentium. Idque efficiantur usu eu. Duo in dicat dolor regione, his et impetus saperet appareat. No eam diam omnis, ea libris
+                molestiae per. Ius cu pertinax laboramus, alia meliore ut usu.</p>
+
+                <p class="item">Porro iisque omittantur at eam. Eam minim mucius ea. Ad est lorem moderatius, aliquam maiestatis mel ad. Vidit insolens consequuntur an
+                vis, solum modus eleifend an cum. Sea ad conceptam necessitatibus.
+                </p>
+
+                <div>
+                    <p class="item">No luptatum signiferumque eum, at invenire hendrerit mediocritatem sea. Everti fabellas pri id, has stet oblique democritum ne. Has congue
+                    dignissim efficiantur id, mundi audiam concludaturque ius ad. Cetero offendit ut cum, duo diam apeirian at. Solum movet delectus vel ea.
+                    Quo officiis intellegam te, eu eam quaestio contentiones, utroque tractatos complectitur id pri.</p>
+                </div>
+            </section>
+            <section id="s4">
+                <h2>Selectia primului succesor</h2>
+                <p>Te debet dignissim moderatius quo, in doming quaeque singulis sed. Elitr voluptua eu nam, causae lucilius lobortis eu mei, te per hinc
+                instructior. Ne tation splendide democritum nam. Nullam detraxit ea mei, eum nemore dignissim ad.
+                Meis option voluptatibus pri ne, vix at patrioque voluptatum. Vix inimicus pericula id. Et dolor maiorum nostrum eum. Ad his soluta
+                accumsan, ius nibh prima ut. Eum case noster patrioque eu. Eam id placerat evertitur, fugit commodo rationibus an mei.
+                Eu pro dolorum delicatissimi. Nec alii fastidii legendos id, illud simul dissentiunt cu cum. Vim ne everti discere, ne quis veri neglegentur est.
+                Aperiam torquatos ea vix.</p>
+
+                <p>Id vocibus oportere vis. Mollis forensibus est in, purto adolescens pri ex. No definiebas percipitur nec, eos ea congue option nostrum. Mea ne
+                sumo altera, quo agam dicam eu, an dicta patrioque cum. Expetendis quaerendum instructior et vix, ei mel quem definitiones, has ea dictas
+                scripserit. Libris accusam ne sit, ius putent dolores id.</p>
+            </section>
+
+            <section id="s5">
+                <h2>Selectia succesorilor</h2>
+                <p class="sel">Eu pri intellegat rationibus, an meis primis erroribus nam, hinc graece id nam. At feugait omnesque mea, idque delicata definitionem at vix.
+                Vim diceret democritum ad. Inani deterruisset his in. An tation bonorum per, pri te dicta exerci.
+                An facete aliquid apeirian mei, cu usu nostro pertinax, scripta debitis duo et. Solum soleat tincidunt ei qui. Facer legendos no has, pro liber
+                persequeris et. Vix suas wisi docendi ut.
+                </p>
+
+
+                <p>Eu pro dolorum delicatissimi. Nec alii fastidii legendos id, illud simul dissentiunt cu cum. Vim ne everti discere, ne quis veri neglegentur est.
+                Aperiam torquatos ea vix.</p>
+
+                <p>Errem cetero singulis ex eam. Cum eius necessitatibus id, molestiae rationibus ei mel. Pri te sint assum. Cu modo ridens maiestatis vis, an
+                dico fabellas electram mel.
+                </p>
+
+                <p class="sel">Ut eam aperiam fierent definiebas. Ut omittam corrumpit sadipscing cum, eos ludus latine integre ex. Vel no denique atomorum sensibus, ad
+                quo nisl placerat. Cu nec tempor consequuntur. Est ei paulo facilis mandamus. Vis purto etiam repudiandae id, ne epicuri blandit sadipscing
+                sed. Sea diam omnes dissentias no.
+                </p>
+            </section>
+        </main>
+        <footer class="center blue">
+            Selectorii CSS. &copy; Adonis
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+dt.citat::before { content:"\201E"; }
+
+dt.citat::after { content:"\201C"; }
+
+dt {
+  color: blue;
+}
+
+dd {
+  text-align: right;
+  color: red;
+}

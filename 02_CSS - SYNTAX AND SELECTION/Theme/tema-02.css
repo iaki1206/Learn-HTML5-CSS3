@@ -1,0 +1,100 @@
+/* Alinierea textului:
+    - toate elementele cu clasa right se aliniaza la dreapta
+    - toate elementele cu clasa center se aliniaza centrat
+    - toate elementele cu clasa justify se aliniaza justify (spatiul
+      uniform distribuit pe orizontala) */
+
+      .right {
+        text-align: right;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .jutify {
+        text-align: justify;
+      }
+
+/*2. Culoarea textului:
+    - toate elementele cu clasele blue sau active se afisaza cu culoarea blue
+    - toate elementele cu clasa green se afisaza cu culoarea green
+    - toate elementele cu clasa red se afisaza cu culoarea red */
+
+.blue {
+  color: blue;
+}
+
+li.active {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+/*3. Stiluri pentru continutul elementului aside:
+    - prima litera din elementele li este afisata cu culoarea verde
+    - dupa fiecare li se adauga un pseudo-element cu continutul: "\00BB"
+      si culoare red.*/
+
+aside, li::first-letter {
+  color: green;
+}
+
+li::after {
+  color: red;
+  content:"\00BB"
+}
+
+/*4. Stiluri pentru comportament dinamic:
+    - elementele li din meniu si din aside pe :hover au culoarea red si
+      cursorul este pointer (http://www.w3schools.com/cssref/playit.asp?filename=playcss_cursor&preval=url%28smiley.gif%29,url%28myBall.cur%29,auto)*/
+
+ul  li:hover {
+  color: red;
+  cursor: pointer
+}
+li.active:hover {
+  color: red;
+  cursor: pointer
+}
+
+/*5. Selectorii nth-child
+    - elementele li din sectiunea s2 de pe pozitii impare au culoare red
+    - elementele li din sectiunea s2 de pe pozitii pare au culoare green*/
+
+#s2 li:nth-child(odd) {
+  color:red;
+}
+
+#s2 li:nth-child(even) {
+  color:green
+}
+
+/*6. Selectia descendentilor de pe primul nivel
+        - elementele cu clasa item din sectiunea s3 de pe primul nivel
+          sunt afisate cu culoarea blue*/
+
+#s3 > p {
+  color: blue;
+}
+
+
+/*7. Selectia primului succesor
+    - primul succesor al elementului h2 din sectiunea s4 se afisaza cu culoarea green*/
+
+#s4 h2 ~ p {
+  color: green;
+}
+
+/*8. Selectia succesorilor
+    - succesorii elementului h2 din sectiunea s5 care au clasa sel sunt afisati cu culoarea red*/
+
+#s5 p.sel {
+  color: red;
+}
