@@ -128,7 +128,10 @@ p {
     list-style-position: inside;
   } */
 
-  /* list-style */
-  li, p.blue {
-    list-style: square inside url("img/iaki.png")
-  }
+  /* list-style
+  #red {
+    list-style: url("img/iaki.png")
+  }*/
+
+  /* Link-uri */
+  a href="home.html"
