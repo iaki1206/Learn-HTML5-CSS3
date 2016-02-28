@@ -1,0 +1,18 @@
+/* 3. setati stilurile pentru elementul p:
+   fontul Courier italic de dimiensiune 15px
+
+4. setati stilurile pentru elementul span:
+   small caps, bold dimensiune 16px si culoare albastra */
+
+   p {
+     font-style: italic;
+     font-size: 15px;
+     font-family: Courier
+   }
+
+   span {
+     font-variant: small-caps;
+     font-weight: 700;
+     font-size: 16px;
+     color: blue;
+   }
