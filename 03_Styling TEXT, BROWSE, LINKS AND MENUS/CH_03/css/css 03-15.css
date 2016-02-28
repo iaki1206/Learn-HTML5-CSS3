@@ -1,0 +1,8 @@
+/* 3. setati stilurile pentru elementul ul:
+   - elementul decorativ este cerc pozitionat in interior */
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+
+}

@@ -1,0 +1,8 @@
+/* 3. setati stilurile pentru elementul ol:
+   - elementul decorativ pozitionat in interior simbolurile sunt romane
+   cu litere mici */
+
+   ol {
+     list-style-position: inside;
+     list-style-type: lower-roman;
+   }

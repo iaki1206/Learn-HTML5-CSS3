@@ -1,0 +1,13 @@
+/* . setati stilurile pentru elementul p:
+   fontul Times New Roman de dimiensiune 15px
+   distanta intre litere 0.1em
+   distanta intre cuvinte 0.5em
+   inaltimea liniei 1.5 */
+
+   p {
+     font-size: 15px;
+     font-family: "Times New Roman";
+     letter-spacing: 0.1em;
+     word-spacing: 0.5em;
+     line-height: 1.5;
+   }

@@ -1,0 +1,13 @@
+/* 3. elementul cu clasa up-down are textul subliniat
+atat sus cat si jos.
+
+4. elementul cu clasa cut are textul taiat cu o linie */
+
+p .cut {
+  color: blue;
+  text-decoration: line-through;
+  }
+
+p .up-down {
+  text-decoration: underline overline;
+}

@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Condiment;
+  src: url("font/Condiment-Regular.otf");
+}
+
+
+nav {
+  align: center;
+  list-style-type: none;
+  font-size: 25px;
+  font-family: Condiment;
+  word-spacing: 25px
+}
+
+nav a:visited {
+  color: green;
+}
+
+nav :link {
+  color: green;
+}
+
+nav a:not(:nth-child(4))::after {
+
+  content: " |";
+  font-family: Arial;
+}
+
+a:first-child::before {
+  content: "\02302";
+}
+
+a:nth-child(4)::before {
+  content: "\02706";
+}
+
+a:link:first-child {
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 900;
+}
+
+a:link:nth-child(4) {
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 900;
+}

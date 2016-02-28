@@ -1,0 +1,13 @@
+/* 3. setati stilurile pentru elementul span:
+   - care este destinatia unui link se afisaza cu culoare rosie
+
+4. setati stilurile pentru linkuri;
+   - cursorul este crosshair */
+
+   span {
+    color: red;
+   }
+
+   #dts :hover {
+     cursor: crosshair;
+   }

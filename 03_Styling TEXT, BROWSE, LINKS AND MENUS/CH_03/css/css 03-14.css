@@ -1,0 +1,16 @@
+/* 3. setati stilurile pentru elementul p:
+   - textul este indentat la dreapta cu 20px
+   - culoarea este albastru
+   - prima litera are fontul Arial bold cu inaltime de 30px
+   - culoarea primei linii este verde */
+
+ p {
+   color: blue;
+ }
+ p::first-letter {
+   font-family: Arial;
+   font-size: 30px;
+ }
+ p::first-line {
+   color: green;
+ }
