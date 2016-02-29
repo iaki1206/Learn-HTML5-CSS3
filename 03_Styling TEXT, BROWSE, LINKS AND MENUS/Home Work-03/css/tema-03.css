@@ -29,12 +29,6 @@ nav a {
   color: darkgreen;
 }
 
-nav a:not(:nth-child(4))::after {
-  content: " |";
-  color: darkgreen;
-  font-family: Arial;
-}
-
 nav a:first-child {
   color: orange;
 }
@@ -44,9 +38,22 @@ nav :hover {
   cursor: pointer;
 }
 
+nav a:not(:nth-child(4))::after {
+  content: " |";
+  color: darkgreen;
+  font-family: Arial;
+}
+
 aside, li {
   list-style-type: none;
 }
+
+main a {
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+}
+
 
 h1 {
   color: indigo;
@@ -61,8 +68,44 @@ aside li::after {
 
 li :hover {
   color: crimson;
+
 }
 
-#s1 :target {
+#s1:target {
   background-color: lavender;
+}
+
+#s2:target {
+  background-color: lavender;
+}
+
+.ti {
+  text-indent: 30px;
+}
+
+.lh {
+  line-height: 30px;
+}
+
+.over {
+  text-decoration: overline;
+  color: red;
+}
+
+article.roman {
+  list-style-type: lower-roman;
+}
+
+* > .greek {
+  list-style: lower-greek;
+} */=
+
+
+
+
+
+
+footer {
+  text-align:center;
+  color: indigo
 }
