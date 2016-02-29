@@ -128,6 +128,7 @@ p {
     list-style-position: inside;
   } */
 
+<<<<<<< Updated upstream
   /* list-style
   #red {
     list-style: url("img/iaki.png")
@@ -135,3 +136,9 @@ p {
 
   /* Link-uri */
   a href="home.html"
+=======
+  /* list-style */
+#bullet {
+    list-style-image: url("img/iaki.png");
+}
+>>>>>>> Stashed changes
