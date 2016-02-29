@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "ChunkFive", "Arizonia";
+  src: url("./ChunkFive/Chunkfive.otf")
+  src: url("./Arizonia/Arizonia-Regular.ttf")
+}
+
+.logo {
+  font-size: 40px;
+  font-family: Chunkfive;
+}
+.orange {
+  color: orange;
+  text-transform: uppercase;
+}
+.blue{
+  color: blue;
+  text-transform: uppercase;
+}
+
+nav {
+  text-align: center;
+  word-spacing: 15px;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arizonia;
+  color: darkgreen;
+}
+
+nav a:not(:nth-child(4))::after {
+  content: " |";
+  color: darkgreen;
+  font-family: Arial;
+}
+
+nav a:first-child {
+  color: orange;
+}
+
+nav :hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+aside, li {
+  list-style-type: none;
+}
+
+h1 {
+  color: indigo;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+aside li::after {
+  content: " \00BB"
+}
+
+li :hover {
+  color: crimson;
+}
+
+#s1 :target {
+  background-color: lavender;
+}
