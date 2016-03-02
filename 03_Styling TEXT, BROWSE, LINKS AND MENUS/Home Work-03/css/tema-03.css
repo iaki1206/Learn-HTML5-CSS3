@@ -23,6 +23,7 @@ nav {
 }
 
 nav a {
+  text-decoration: none;
   font-weight: bold;
   font-size: 30px;
   font-family: Arizonia;
@@ -36,6 +37,7 @@ nav a:first-child {
 nav :hover {
   color: crimson;
   cursor: pointer;
+
 }
 
 nav a:not(:nth-child(4))::after {
@@ -44,16 +46,14 @@ nav a:not(:nth-child(4))::after {
   font-family: Arial;
 }
 
-aside, li {
+aside, ul {
   list-style-type: none;
-}
-
-main a {
-  text-decoration: none;
   font-family: Arial;
   font-weight: bold;
 }
-
+main a {
+  text-decoration: none;
+}
 
 h1 {
   color: indigo;
@@ -63,12 +63,12 @@ h1 {
 }
 
 aside li::after {
+  color: indigo;
   content: " \00BB"
 }
 
 li :hover {
   color: crimson;
-
 }
 
 #s1:target {
@@ -92,18 +92,17 @@ li :hover {
   color: red;
 }
 
-article.roman {
+* > .roman {
   list-style-type: lower-roman;
 }
 
 * > .greek {
   list-style: lower-greek;
-} */=
+}
 
-
-
-
-
+* > li{
+  color: blueviolet;
+}
 
 footer {
   text-align:center;
