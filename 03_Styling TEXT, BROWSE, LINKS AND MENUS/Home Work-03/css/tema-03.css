@@ -1,59 +1,89 @@
 @font-face {
-  font-family: "ChunkFive", "Arizonia";
-  src: url("./ChunkFive/Chunkfive.otf")
-  src: url("./Arizonia/Arizonia-Regular.ttf")
+  font-family: "ChunkFive";
+  src: url("./ChunkFive/Chunkfive.otf");
 }
+
+@font-face {
+font-family: "Arizonia";
+src: url("./arizonia/Arizonia-Regular.ttf");
+}
+
+/* Header */
 
 .logo {
   font-size: 40px;
-  font-family: Chunkfive;
+  font-family: "Chunkfive";
 }
+
+
 .orange {
   color: orange;
   text-transform: uppercase;
 }
+
+
 .blue{
   color: blue;
   text-transform: uppercase;
 }
+
+
+
+/* Stilizare si referinte meniu principal */
+
 
 nav {
   text-align: center;
   word-spacing: 15px;
 }
 
+
 nav a {
-  text-decoration: none;
   font-weight: bold;
   font-size: 30px;
   font-family: Arizonia;
   color: darkgreen;
 }
 
-nav a:first-child {
-  color: orange;
-}
 
-nav :hover {
+nav a:hover {
   color: crimson;
   cursor: pointer;
-
 }
 
-nav a:not(:nth-child(4))::after {
-  content: " |";
+
+  a:not(:nth-child(1))::before {
+  content: " | ";
   color: darkgreen;
   font-family: Arial;
 }
+
+
+nav a:first-child:visited {
+  color: orange;
+  cursor: pointer;
+}
+
+
+nav a:active {
+  color: orange;
+}
+
+
+/* Stilizare container aside */
+
 
 aside, ul {
   list-style-type: none;
   font-family: Arial;
   font-weight: bold;
 }
+
+
 main a {
   text-decoration: none;
 }
+
 
 h1 {
   color: indigo;
@@ -62,49 +92,55 @@ h1 {
   font-family: sans-serif;
 }
 
+
 aside li::after {
   color: indigo;
-  content: " \00BB"
+  content: " \00BB";
 }
+
 
 li :hover {
   color: crimson;
 }
 
-#s1:target {
+
+:target {
   background-color: lavender;
 }
 
-#s2:target {
-  background-color: lavender;
-}
 
 .ti {
   text-indent: 30px;
 }
 
+
 .lh {
   line-height: 30px;
 }
+
 
 .over {
   text-decoration: overline;
   color: red;
 }
 
-* > .roman {
+
+section > .roman {
   list-style-type: lower-roman;
 }
 
-* > .greek {
+
+section > .greek {
   list-style: lower-greek;
 }
 
-* > li{
+
+section .greek, .roman {
   color: blueviolet;
 }
 
+
 footer {
   text-align:center;
-  color: indigo
+  color: indigo;
 }
