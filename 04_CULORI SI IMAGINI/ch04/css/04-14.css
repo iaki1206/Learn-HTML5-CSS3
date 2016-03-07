@@ -1,0 +1,98 @@
+/*
+.color-primary-0 { color: #AE9C3E }
+.color-primary-1 { color: #FFF6C9 }
+.color-primary-2 { color: #E4D482 }
+.color-primary-3 { color: #786710 }
+.color-primary-4 { color: #423700 }
+
+.color-complement-0 { color: #443378 }
+.color-complement-1 { color: #ACA2C8 }
+.color-complement-2 { color: #70619D }
+.color-complement-3 { color: #231353 }
+.color-complement-4 { color: #0E042D }
+*/
+
+
+body {
+  background-color: #AE9B3E;
+}
+
+
+#meniu-principal, footer {
+  text-align: center;
+}
+
+
+#meniu-principal a {
+  text-decoration: none;
+}
+
+
+header {
+  font: bold 40px "Verdana";
+  text-indent: 20px;
+  line-height: 50px;
+}
+
+
+article, footer {
+  font: 15px "Verdana";
+}
+
+
+nav {
+  background-color: #1D1800;
+}
+
+
+nav {
+  font-family: "Verdana";
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+nav a:not(:first-child)::before {
+  content: " | ";
+}
+
+
+nav a {
+  color: #443377;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  background-color: #050114;
+  color: #443377;
+}
+
+
+.ch {
+  background-color: #010003;
+  color: #AE9B3E;
+}
+
+article .ca, h1 {
+  color: #0E042D;
+}
+
+
+.ca a {
+  color: #20104E;
+}
+
+
+.ca p {
+  color: #0E042D;
+}
+
+
+.cf {
+  background-color: #0E042D;
+  color: #443377;
+}
