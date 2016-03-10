@@ -1,0 +1,110 @@
+/* TODO: Add font-face pentru great wibes */
+
+
+@font-face {
+  font-family: BEBASNEUE;
+  src: url("./font/BEBASNEUE BOLD.TTF")
+}
+
+meniu-secundar, article {
+  line-height: 20px;
+  font-family: Verdana;
+  color: #567714;
+}
+
+
+body {
+  background-color: #FFE9C9;
+}
+
+
+header {
+  text-indent: 20px;
+  line-height: 50px;
+}
+
+
+header, img {
+  vertical-align: middle;
+}
+
+
+nav, footer {
+    text-align: center;
+    word-spacing: 5px;
+    font: bold 20px Bebasneue;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+
+nav a::after {
+    font: 20px 'sans-serif';
+    text-align: center;
+    content: "\00A0";
+}
+
+
+.meniu-secundar {
+    list-style-type: none;
+}
+
+.meniu-secundar  a {
+    text-decoration: none;
+    font: bold 18px sans-serif;
+    color: #801515;
+}
+
+.meniu-secundar a::after {
+    content: " \00BB";
+}
+
+
+p [href="#"] {
+  color: #801515;
+}
+
+
+.c1b {
+  background-color: #669999;
+}
+
+
+nav {
+  background-color: #A5C663;
+}
+
+
+nav a {
+  color: #567714;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  /*background-color: #352000;*/
+  color: #D46A6A;
+}
+
+
+nav a[href="#"] {
+  color: #352000;
+}
+
+
+li :hover {
+  color: #D46A6A;
+}
+
+/* footer */
+.c3b {
+    letter-spacing: 5px;
+    color: #567714;
+    font: 17px Bebasneue;
+    text-align: center;
+    background-color: #A5C663;
+}

@@ -1,0 +1,117 @@
+/* color-primary-0 { color: #AA3939 }
+.color-primary-1 { color: #FFAAAA }
+.color-primary-2 { color: #D46A6A }
+.color-primary-3 { color: #801515 }
+.color-primary-4 { color: #550000 }
+
+.color-complement-0 { color: #2D882D }
+.color-complement-1 { color: #88CC88 }
+.color-complement-2 { color: #55AA55 }
+.color-complement-3 { color: #116611 }
+.color-complement-4 { color: #004400 } */
+
+
+@font-face {
+  font-family: BEBASNEUE;
+  src: url("./font/BEBASNEUE BOLD.TTF")
+}
+
+meniu-secundar, article {
+  line-height: 20px;
+  font-family: Verdana;
+  color: #004400;
+}
+
+
+body {
+  background-color: #c9e8c9;
+}
+
+
+header {
+  text-indent: 20px;
+  line-height: 50px;
+}
+
+
+header, img {
+  vertical-align: middle;
+}
+
+
+nav, footer {
+    text-align: center;
+    word-spacing: 5px;
+    font: bold 20px Bebasneue;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+
+.meniu-secundar a::after {
+    content: " \00BB";
+    color: #550000;
+}
+
+
+p [href="#"] {
+  color: #AA3939;
+}
+
+
+.c1b {
+  background-color: #55AA55;
+}
+
+
+nav {
+  background-color: #2D882D;
+}
+
+
+nav a {
+  color: #88CC88;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  color: #352000;
+}
+
+
+ul {
+  font: bold 18px "Verdana";
+}
+
+aside .c3f, ul {
+  color: #801515;
+}
+
+
+nav a[href="#"] {
+  color: #352000;
+}
+
+
+ul [class="meniu-secundar"] {
+  color: #801515;
+}
+
+
+li :hover {
+  color: #116611;
+}
+
+/* footer */
+.c3b {
+    letter-spacing: 5px;
+    font: 17px Bebasneue;
+    text-align: center;
+    background-color: #AA3939;
+    color: #FFAAAA;
+}

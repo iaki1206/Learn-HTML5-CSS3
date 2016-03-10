@@ -1,0 +1,80 @@
+/* TODO: Add font-face pentru great wibes */
+
+
+@font-face {
+  font-family: BEBASNEUE;
+  src: url("./font/BEBASNEUE BOLD.TTF")
+}
+
+meniu-secundar, article {
+  line-height: 20px;
+  font-family: Verdana;
+  color: #352000;
+}
+
+
+body {
+  background-color: #FFE9C9;
+}
+
+
+.meniu-secundar  a {
+    text-decoration: none;
+    font: bold 18px sans-serif;
+    color: #352000;
+}
+
+.meniu-secundar a::after {
+    content: " \00BB";
+}
+
+
+p [href="#"] {
+  color: #E5BC80;
+}
+
+
+.c1b {
+  background-color: #352000;
+  color: #AA7D39;
+}
+
+
+nav {
+  background-color: #E5BC80;
+}
+
+
+nav a {
+  color: #AA7D39;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  /*background-color: #352000;*/
+  color: #352000;
+}
+
+
+aside .c3f, ul {
+  color: #352000;
+}
+
+
+nav a[href="#"] {
+  color: #352000;
+}
+
+
+li :hover {
+  color: #E5BC80;
+}
+
+/* footer */
+.c3b {
+    letter-spacing: 5px;
+    font: 17px Bebasneue;
+    text-align: center;
+    background-color: #E5BC80;
+}
