@@ -2,6 +2,7 @@
 
 
 @font-face {
+<<<<<<< Updated upstream
   font-family: BEBASNEUE;
   src: url("./font/BEBASNEUE BOLD.TTF")
 }
@@ -10,10 +11,15 @@ meniu-secundar, article {
   line-height: 20px;
   font-family: Verdana;
   color: #352000;
+=======
+  font-family: "Great Vibes";
+  src: url("./font/GreatVibes-Regular.otf");
+>>>>>>> Stashed changes
 }
 
 
 body {
+<<<<<<< Updated upstream
   background-color: #FFE9C9;
 }
 
@@ -26,32 +32,62 @@ body {
 
 .meniu-secundar a::after {
     content: " \00BB";
+=======
+  background-color: #ffdcc2;
+}
+
+
+meniu-secundar, article {
+  color: #9B4200;
+}
+
+
+.meniu-secundar  a {
+  color: #801515;
+>>>>>>> Stashed changes
 }
 
 
 p [href="#"] {
+<<<<<<< Updated upstream
   color: #E5BC80;
+=======
+  color: #FF6C00;
+>>>>>>> Stashed changes
 }
 
 
 .c1b {
+<<<<<<< Updated upstream
   background-color: #352000;
   color: #AA7D39;
+=======
+  background-color: #FFDA39;
+>>>>>>> Stashed changes
 }
 
 
 nav {
+<<<<<<< Updated upstream
   background-color: #E5BC80;
+=======
+  background-color: #FF8D39;
+>>>>>>> Stashed changes
 }
 
 
 nav a {
+<<<<<<< Updated upstream
   color: #AA7D39;
+=======
+  color: #FFE264;
+>>>>>>> Stashed changes
   text-decoration: none;
 }
 
 
 nav a:hover {
+<<<<<<< Updated upstream
   /*background-color: #352000;*/
   color: #352000;
 }
@@ -59,22 +95,38 @@ nav a:hover {
 
 aside .c3f, ul {
   color: #352000;
+=======
+  color: #9B4200;
+>>>>>>> Stashed changes
 }
 
 
 nav a[href="#"] {
+<<<<<<< Updated upstream
   color: #352000;
+=======
+  color: #C65400;
+>>>>>>> Stashed changes
 }
 
 
 li :hover {
+<<<<<<< Updated upstream
   color: #E5BC80;
+=======
+  color: #9B4200;
+>>>>>>> Stashed changes
 }
 
 /* footer */
 .c3b {
+<<<<<<< Updated upstream
     letter-spacing: 5px;
     font: 17px Bebasneue;
     text-align: center;
     background-color: #E5BC80;
+=======
+    color: #9B7E00;
+    background-color: #FFE264;
+>>>>>>> Stashed changes
 }

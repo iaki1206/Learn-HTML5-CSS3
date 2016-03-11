@@ -2,6 +2,7 @@
 
 
 @font-face {
+<<<<<<< Updated upstream
   font-family: BEBASNEUE;
   src: url("./font/BEBASNEUE BOLD.TTF")
 }
@@ -10,10 +11,15 @@ meniu-secundar, article {
   line-height: 20px;
   font-family: Verdana;
   color: #567714;
+=======
+  font-family: "Great Vibes";
+  src: url("./font/GreatVibes-Regular.otf");
+>>>>>>> Stashed changes
 }
 
 
 body {
+<<<<<<< Updated upstream
   background-color: #FFE9C9;
 }
 
@@ -61,11 +67,28 @@ nav a::after {
 
 .meniu-secundar a::after {
     content: " \00BB";
+=======
+  background-color: #ffd4b3;
+}
+
+
+meniu-secundar, article {
+  color: #567714;
+}
+
+
+.meniu-secundar  a {
+  color: #801515;
+>>>>>>> Stashed changes
 }
 
 
 p [href="#"] {
+<<<<<<< Updated upstream
   color: #801515;
+=======
+  color: #FFA500;
+>>>>>>> Stashed changes
 }
 
 
@@ -86,7 +109,10 @@ nav a {
 
 
 nav a:hover {
+<<<<<<< Updated upstream
   /*background-color: #352000;*/
+=======
+>>>>>>> Stashed changes
   color: #D46A6A;
 }
 
@@ -102,9 +128,13 @@ li :hover {
 
 /* footer */
 .c3b {
+<<<<<<< Updated upstream
     letter-spacing: 5px;
     color: #567714;
     font: 17px Bebasneue;
     text-align: center;
+=======
+    color: #567714;
+>>>>>>> Stashed changes
     background-color: #A5C663;
 }

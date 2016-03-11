@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* color-primary-0 { color: #AA3939 }
 .color-primary-1 { color: #FFAAAA }
 .color-primary-2 { color: #D46A6A }
@@ -20,10 +21,29 @@ meniu-secundar, article {
   line-height: 20px;
   font-family: Verdana;
   color: #004400;
+=======
+/* .color-primary-0 { color: #FFA500 }
+.color-primary-1 { color: #FFC864 }
+.color-primary-2 { color: #FFBA39 }
+.color-primary-3 { color: #C68000 }
+.color-primary-4 { color: #9B6500 }
+
+.color-complement-0 { color: #1047A9 }
+.color-complement-1 { color: #567BBF }
+.color-complement-2 { color: #3560AF }
+.color-complement-3 { color: #0C3683 }
+.color-complement-4 { color: #072967  */
+
+
+@font-face {
+  font-family: "Great Vibes";
+  src: url("./font/GreatVibes-Regular.otf");
+>>>>>>> Stashed changes
 }
 
 
 body {
+<<<<<<< Updated upstream
   background-color: #c9e8c9;
 }
 
@@ -55,31 +75,60 @@ nav a {
 .meniu-secundar a::after {
     content: " \00BB";
     color: #550000;
+=======
+  background-color: #ffe4b3;
+}
+
+meniu-secundar, article {
+  color: #C68000;
+}
+
+
+.meniu-secundar  a {
+  color: #567BBF;
+>>>>>>> Stashed changes
 }
 
 
 p [href="#"] {
+<<<<<<< Updated upstream
   color: #AA3939;
+=======
+  color: #9B6500;
+>>>>>>> Stashed changes
 }
 
 
 .c1b {
+<<<<<<< Updated upstream
   background-color: #55AA55;
+=======
+  background-color: #567BBF;
+>>>>>>> Stashed changes
 }
 
 
 nav {
+<<<<<<< Updated upstream
   background-color: #2D882D;
+=======
+  background-color: #FFC864;
+>>>>>>> Stashed changes
 }
 
 
 nav a {
+<<<<<<< Updated upstream
   color: #88CC88;
+=======
+  color: #9B6500;
+>>>>>>> Stashed changes
   text-decoration: none;
 }
 
 
 nav a:hover {
+<<<<<<< Updated upstream
   color: #352000;
 }
 
@@ -90,20 +139,28 @@ ul {
 
 aside .c3f, ul {
   color: #801515;
+=======
+  color: #567BBF;
+>>>>>>> Stashed changes
 }
 
 
 nav a[href="#"] {
+<<<<<<< Updated upstream
   color: #352000;
 }
 
 
 ul [class="meniu-secundar"] {
   color: #801515;
+=======
+  color: #9B6500;
+>>>>>>> Stashed changes
 }
 
 
 li :hover {
+<<<<<<< Updated upstream
   color: #116611;
 }
 
@@ -114,4 +171,13 @@ li :hover {
     text-align: center;
     background-color: #AA3939;
     color: #FFAAAA;
+=======
+  color: #0C3683;
+}
+
+
+footer {
+  color: #FFA500;
+  background-color: #1047A9;
+>>>>>>> Stashed changes
 }
