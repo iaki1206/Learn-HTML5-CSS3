@@ -1,0 +1,50 @@
+/* TODO: Add font-face pentru great wibes */
+
+
+@font-face {
+  font-family: "Great Vibes";
+  src: url("./font/GreatVibes-Regular.otf");
+}
+
+nav {
+    text-align: center;
+    word-spacing: 5px;
+    font: bold 25px "Great Vibes";
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+
+nav a::before,
+nav a::after {
+    font: 30px 'sans-serif';
+    content: "\00A0";
+}
+
+
+nav a img {
+    height: 20px;
+}
+
+
+.meniu-secundar {
+    list-style-type: none;
+}
+
+.meniu-secundar  a {
+    text-decoration: none;
+    font: bold 18px sans-serif;
+}
+
+.meniu-secundar a::after {
+    content: " \00BB";
+}
+
+
+footer {
+    font: 20px "Great Vibes";
+    text-align: center;
+}
