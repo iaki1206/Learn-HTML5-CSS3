@@ -1,0 +1,14 @@
+table {
+  border-collapse: collapse;
+}
+
+
+caption {
+  border: solid thin #897400;
+  background-color: #897400;
+  color: #ffd700;
+}
+
+table, tr, td {
+  border: solid thin #ffd700;
+}
