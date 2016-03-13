@@ -1,0 +1,44 @@
+
+/*Pornind de la exercitiul anterior sa se grupeze coloanele
+pentru a obtine formatarea din dreapta. Gruparea de coloane
+va refolosi culorile pentru thead respectiv tbody. Stilurile
+pentru tfoot raman neschimbate.*/
+
+table {
+  border-collapse: collapse;
+  border: solid thin #ebc600;
+}
+
+td {
+  padding: 4px;
+  border: solid thin #ebc600;
+}
+
+table .q1 {
+  background-color: #9bc8fe;
+}
+
+table .q2 {
+  background-color: #ffe793;
+}
+
+/*thead th, td {
+  border: solid thin #ebc600;
+  background-color: #9bc8fe;
+}
+
+tbody tr, td {
+  border: solid thin #ebc600;
+}
+
+tbody td {
+  background-color: #ffe793;
+}*/
+
+tfoot {
+  border: solid thin #ebc600;
+}
+
+tfoot td {
+    background-color: #ffba93;
+}

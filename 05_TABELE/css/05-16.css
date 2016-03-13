@@ -1,0 +1,13 @@
+table {
+  border-top: solid thin black;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+caption, th, tfoot {
+  font-weight: bold;
+}
+
+tbody {
+  border-bottom: solid thin black;
+}

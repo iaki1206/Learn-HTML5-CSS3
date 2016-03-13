@@ -1,0 +1,33 @@
+
+/*Pornind de la exercitiul anterior sa se adauge gruparea
+semantica folosind culorile #9bc8fe pentru thead, #ffe793
+pentru tbody si #ffba93 pentru tfoot.*/
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 4px;
+}
+
+thead th, td {
+  border: solid thin #ebc600;
+  background-color: #9bc8fe;
+}
+
+tbody tr, td {
+  border: solid thin #ebc600;
+}
+
+tbody td {
+  background-color: #ffe793;
+}
+
+tfoot {
+  border: solid thin #ebc600;
+}
+
+tfoot td {
+    background-color: #ffba93;
+}
