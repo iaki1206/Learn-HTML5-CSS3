@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+  font-size: 18px;
+  font-family: "Verdana";
+  margin:auto;
+}
+
+caption {
+  border: solid 2px #897400;
+  background-color: #897400;
+  color: #ffd700;
+}
+
+thead {
+  text-align: center;
+  background-color: #ffd700;
+}
+
+tbody, tr, td {
+  border: solid 2px #ffd700;
+}
+
+
+tbody td:nth-child(2) {
+    text-align: right;
+}

@@ -1,0 +1,32 @@
+/* Modificati exemplul anterior. Pentru primul rand inlocuiti
+elementele td cu th, folositi valoarea #ffd700 pentru
+background-color, ajustati celelalte stiluri necesare pentru a
+obtine formatarea din dreapta.*/
+
+table {
+  border-collapse: collapse;
+  font-size: 18px;
+  font-family: "Verdana";
+  margin:auto;
+}
+}
+
+caption {
+  border: solid 2px #897400;
+  background-color: #897400;
+  color: #ffd700;
+}
+
+th {
+  text-align: center;
+  background-color: #ffd700;
+}
+
+table, th, tr, td {
+  border: solid 2px #ffd700;
+}
+
+
+td:nth-child(2) {
+    text-align: right;
+}

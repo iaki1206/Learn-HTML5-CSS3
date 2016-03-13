@@ -1,0 +1,38 @@
+/* Modificati exemplul anterior adaugand culorile de fundal
+#F2FFD8 pentru randurile impare si #FFF6C4 pentru randurile
+pare.*/
+
+table {
+  border-collapse: collapse;
+  font-size: 18px;
+  font-family: "Verdana";
+  margin:auto;
+}
+
+caption {
+  border: solid 2px #897400;
+  background-color: #897400;
+  color: #ffd700;
+}
+
+thead, th {
+  text-align: center;
+  background-color: #ffd700;
+}
+
+tbody, tr, td {
+  border: solid 2px #ffd700;
+}
+
+
+tbody td:nth-child(2) {
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #FFF6C4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F2FFD8;
+}
