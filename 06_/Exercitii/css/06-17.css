@@ -1,0 +1,8 @@
+.req::after {
+  content:" * ";
+  color:red;
+}
+
+:required {
+  background:LightYellow;
+}
