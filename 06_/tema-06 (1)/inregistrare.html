@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title>Form de inregistrare</title>
+        <link rel="stylesheet" type="text/css" href="css/inregistrare.css">
+    </head>
+    <body>
+      <h1>Inregistrare client nou</h1>
+            <form class="nou" action="mailto:cineva@domeniu.ro" method="post">
+              <div style="width: 80px; float: left;">
+                <label for="prenume" class="star">Prenume:</label></div>
+              <div>
+                  <input size="25px" type="text" name="prenume" required/>
+              </div>
+              <div style="width: 80px; float: left;">
+                <label for="nume" class="star">Nume:</label></div>
+              <div>
+                <input size="25px" type="text" name="nume" required />
+              </div>
+              <div style="width: 80px; float: left;">
+                <label for="telefon">Telefon:</label></div>
+              <div>
+                <input size="25px" type="text" name="telefon" />
+              </div>
+              <div style="width: 80px; float: left;">
+                <label for="email" class="star">Email:</label></div>
+              <div>
+                <input size="25px" type="text" name="email" required />
+              </div>
+              <div style="width: 80px; float: left;">
+                <label for="parola" class="star">Parola:</label></div>
+              <div>
+                <input size="25px" type="text" name="parola" required />
+              </div>
+              <div style="width: 80px; float: left;">
+                <label for="verificare" class="star">Verificare:</label></div>
+              <div>
+                <input size="25px" type="text" name="verificare" placeholder="Reintroduceti parola" required />
+              </div>
+            </form>
+            <button type="creaza">Creaza cont</button>
+    </body>
+  </html>

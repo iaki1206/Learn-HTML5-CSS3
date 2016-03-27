@@ -1,0 +1,8 @@
+.star::after {
+  content:" * ";
+  color:red;
+}
+
+div {
+  margin-bottom: 5px;
+}

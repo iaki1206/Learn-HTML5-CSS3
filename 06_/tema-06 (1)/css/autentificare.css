@@ -1,0 +1,12 @@
+:required {
+  background-color: #e5fbcd;
+}
+
+div {
+  margin-bottom: 5px;
+}
+
+.existent {
+  width: 280px;
+  padding: 10px;
+}

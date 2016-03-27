@@ -1,0 +1,104 @@
+    #078000;
+
+.color-primary-0 { color: #328A2E }	/* Main Primary color */
+.color-primary-1 { color: #C3E6C1 }
+.color-primary-2 { color: #5AAC56 }
+.color-primary-3 { color: #156711 }
+.color-primary-4 { color: #034500 }
+
+
+
+header img {
+    background-color: #C3E6C1;
+    vertical-align: middle;
+}
+
+
+section:target {
+    background-color: 	#E6F2E5;
+}
+
+
+.c1b {
+    background-color: #328A2E;
+}
+
+.c1f {
+    color:  #C3E6C1;
+}
+
+.c2b{
+    background-color: #C3E6C1;
+}
+
+.c3b {
+    background-color: #C3E6C1;
+}
+
+
+.c2f h1, .c2f h2, .c2f a, .c2f i  {
+    color: #034500;
+}
+
+
+.c2b td:hover {
+    background-color: #034500;
+}
+
+.c2b td:hover a,
+.c2b td:hover i {
+    color: #C3E6C1;
+}
+
+.c2b .active:hover  {
+    background-color: #E6F2E5;
+}
+
+.c2b .active {
+    background-color:#E6F2E5;
+}
+
+.c2b .active:hover a,
+.c2b .active:hover i {
+    background-color: #E6F2E5;
+    color: #034500;
+}
+
+
+.c3f, a {
+    color: #034500;
+}
+
+.c3f a:hover {
+    color: #E6F4FF;
+    background-color: #034500;
+}
+
+
+aside a::after {
+    content: " \27ab ";
+}
+
+
+footer {
+    text-align: center;
+}
+
+
+main {
+    margin-top: 50px;
+    min-height: 300px;
+}
+
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}

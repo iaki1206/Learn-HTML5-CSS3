@@ -1,0 +1,83 @@
+/*Main Primary color
+.color-primary-0 { color: #328A2E }
+.color-primary-1 { color: #C3E6C1 }
+.color-primary-2 { color: #5AAC56 }
+.color-primary-3 { color: #156711 }
+.color-primary-4 { color: #034500 }*/
+
+
+@font-face {
+font-family: "Niconne";
+src: url("./niconne/Niconne-Regular.ttf");
+}
+
+.header {
+  width: 100%;
+}
+
+.logo {
+  font: 700 40px "Niconne";
+  width: 210px;
+  min-width: 210px;
+  text-indent: 10px;
+  letter-spacing: 2px;
+}
+
+
+.header td {
+  vertical-align: middle;
+  margin: auto;
+  width: 33%;
+}
+
+width: 100%;
+
+.center td:last-child {
+  width: 190px;
+  min-width: 190px;
+}
+
+
+/*comenzi*/
+
+.comenzi table {
+  margin: auto;
+  padding: 4px;
+  width: 25%;
+  border-collapse: collapse;
+  border-bottom: none;
+}
+
+.comenzi td {
+  width: 300px;
+  border: solid 1px #034500;
+  text-align: center;
+}
+
+.comenzi thead {
+  font-weight: bold;
+}
+
+.comenzi td:nth-child(2) {
+  text-align: right;
+}
+
+.comenzi td:nth-child(4) {
+  text-align: right;
+}
+
+.comenzi td:first-child {
+  text-align: left;
+}
+
+.comenzi tr:last-child td:last-child {
+  text-align: right;
+}
+
+.comenzi tfoot td:first-child {
+  font-weight: bold;
+}
+
+.none td{
+  border-style: none;
+}
