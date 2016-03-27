@@ -1,0 +1,30 @@
+/*.container {
+margin: 0px;
+border: 2px solid red;
+padding: 0px;
+width:200px; height:100px;
+}
+
+
+.continut {
+  margin: 10px 10px 50px 90px;
+  border: 1px solid blue;
+  padding: 0px;
+  width:100px; height:50px;
+}*/
+
+.container {
+  margin: 20px;
+  border: 5px solid red;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+}
+
+.continut {
+  margin: 5px 5px 15px 15px;
+  border: 5px solid blue;
+  padding: 10px;
+  width: 130px;
+  height: 30px;
+}
