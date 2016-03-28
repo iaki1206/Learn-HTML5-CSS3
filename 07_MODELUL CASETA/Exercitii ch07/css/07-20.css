@@ -15,17 +15,19 @@
   margin: 0px;
   border-radius: 10px;
   background-color: gold;
-  padding: 0px;
-  /*border: 1px solid gold;*/
-  width: 195px;
+  padding: 15px 0 0 0;
+  width: 225px;
   height: 275px;
-  background-position: center top;
+  text-align: center;
 }
 
 .produs p {
   text-align: center;
-  font-size: 15px;
   font-family: Arial;
+}
+
+p:nth-child(3) {
+  color: green;
 }
 
 span {
@@ -34,4 +36,23 @@ span {
 
 .pret {
   color: #2e05f6;
+}
+
+.produs button {
+  margin: 0px;
+  border: 2px solid green;
+  border-left: 2px solid #21d24d;
+  border-top: 2px solid #21d24d;
+  border-bottom: 2px solid #024d17;
+  border-right: 2px solid #024d17;
+  border-radius: 20px;
+  background-color: green;
+  width: 100px;
+  height: 30px;
+  background-image: url(../img/shopping.png);
+  padding: 2px 30px 2px 3px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  color: white;
 }
