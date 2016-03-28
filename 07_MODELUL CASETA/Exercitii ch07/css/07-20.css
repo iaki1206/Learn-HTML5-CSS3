@@ -1,0 +1,37 @@
+/*p:first-child {
+  margin: 0;
+  border-radius: 10px 0 0 0;
+  padding: 10px 20px;
+  background-color: yellow;
+  border: 3px solid skyblue;
+  width: 165px;
+  background-image: url(../img/bgnd1.png);
+  background-size: 10%;
+  background-repeat: repeat-y;
+  background-position: right;
+}*/
+
+.produs {
+  margin: 0px;
+  border-radius: 10px;
+  background-color: gold;
+  padding: 0px;
+  /*border: 1px solid gold;*/
+  width: 195px;
+  height: 275px;
+  background-position: center top;
+}
+
+.produs p {
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+span {
+  color: magenta;
+}
+
+.pret {
+  color: #2e05f6;
+}
