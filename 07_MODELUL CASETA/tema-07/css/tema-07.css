@@ -1,0 +1,21 @@
+body {
+  background-image: url(../img/bg.png);
+  margin: 15px;
+}
+
+@font-face {
+font-family: "Niconne";
+src: url("../niconne/Niconne-Regular.ttf");
+}
+
+.c1f {
+  padding: 0 15px 0 15px;
+  height: 60px;
+}
+
+.c1f {
+font-size: 40px;
+font-weight: bold;
+font-family: Niconne;
+padding: 5px 10px 5px 10px;
+}
