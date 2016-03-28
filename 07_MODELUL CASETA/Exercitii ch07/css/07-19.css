@@ -1,0 +1,25 @@
+p:first-child {
+  margin: 0;
+  border-radius: 10px 0 0 0;
+  padding: 10px 20px;
+  background-color: yellow;
+  border: 3px solid skyblue;
+  width: 165px;
+  background-image: url(../img/bgnd1.png);
+  background-size: 10%;
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+p:last-child {
+  margin: 0;
+  border-radius: 0 0 10px 0;
+  padding: 10px 20px;
+  background-color: skyblue;
+  border: 3px solid skyblue;
+  width: 165px;
+  background-image: url(../img/bgnd2.png);
+  background-size: 10%;
+  background-repeat: repeat-x;
+  background-position: top;
+}

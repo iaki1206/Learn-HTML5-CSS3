@@ -1,11 +1,13 @@
 div {
-  border: 10px solid black;
-  border-image: url(../img/contur1.png);
-  border-image-repeat: repeat;
-  border-image-slice: 15;
-  border-width: 30px 30px 30px 30px;
   margin: 0px;
+  border: 30px solid black;
+
+  border-image: url(../img/contur1.png) 30 repeat;
+  border-width: 30px 30px;
+
+
   padding: 0px;
   width: 200px;
-  height: 200px;
+  height: 150px;
+
 }

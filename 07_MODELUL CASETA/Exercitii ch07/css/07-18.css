@@ -1,0 +1,17 @@
+p:first-child {
+  margin: 0;
+  border-radius: 10px 0 0 0;
+  padding: 10px 20px;
+  background-color: yellow;
+  border: 3px solid skyblue;
+  width: 165px;
+}
+
+p:last-child {
+  margin: 0;
+  border-radius: 0 0 10px 0;
+  padding: 10px 20px;
+  background-color: skyblue;
+  border: 3px solid skyblue;
+  width: 165px;
+}

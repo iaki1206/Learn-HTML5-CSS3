@@ -1,0 +1,6 @@
+div {
+  border: 5px solid black;
+  border-image: url(../img/contur2.png) 10 repeat;
+  width: 200px;
+  height: 200px;
+}
