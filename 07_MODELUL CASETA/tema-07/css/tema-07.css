@@ -19,3 +19,38 @@ font-weight: bold;
 font-family: Niconne;
 padding: 5px 10px 5px 10px;
 }
+
+.c2b {
+  height: 30px;
+  padding: 2px 0;
+}
+
+.c2b {
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+
+
+nav a {
+  margin: 0 5px 0 5px;
+}
+
+.active a:hover {
+    cursor: pointer;
+    color: #A95486;
+  }
+
+.c2b a {
+  padding: 2px;
+  border-bottom: 4px;
+  border-color: #E6F2E5;
+
+}
+
+/*.active {
+  padding: 2px;
+  background-color: white;
+  border-bottom: 4px;
+}*/
