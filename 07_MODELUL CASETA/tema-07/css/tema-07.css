@@ -29,25 +29,69 @@ padding: 5px 10px 5px 10px;
   font-size: 18px;
   font-family: sans-serif;
   line-height: 30px;
+  border-bottom: transparent;
 }
-
-
 
 nav a {
   margin: 0 5px 0 5px;
 }
 
-.active a:hover {
-    cursor: pointer;
-    color: #A95486;
-    border-bottom: 4px;
-  }
+.active:hover {
+  cursor: pointer;
+  border-bottom: 4px solid #A95486;
+}
 
-  .active {
-    background-color: #E6F2E5;
+a:active {
+  cursor: default;
+  background-color: transparent;
 
-  /*.c2b {
-    padding: 2px;
-    background-color: 4px transparent;
+}
 
-  }*/
+.active:first-child {
+  background-color: #E6F2E5;
+}
+
+td {
+padding: 5px;
+vertical-align: top;
+}
+
+main {
+  margin: 2px 10px 0px 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+td:first-child {
+  width: 15%;
+  text-align: center;
+  min-width: 100px;
+}
+
+.meniu-secundar {
+  padding-left: 0;
+  font: 16px 600 sans-serif;
+}
+
+.meniu-secundar, li {
+  padding: 4px 0 4px 0;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a::before {
+  content: "\00BB"
+}
+
+li:hover {
+  border-bottom: 1px;
+  color: #156711;
+}
