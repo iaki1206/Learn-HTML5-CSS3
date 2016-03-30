@@ -40,17 +40,14 @@ nav a {
 .active a:hover {
     cursor: pointer;
     color: #A95486;
+    border-bottom: 4px;
   }
 
-.c2b a {
-  padding: 2px;
-  border-bottom: 4px;
-  border-color: #E6F2E5;
+  .active {
+    background-color: #E6F2E5;
 
-}
+  /*.c2b {
+    padding: 2px;
+    background-color: 4px transparent;
 
-/*.active {
-  padding: 2px;
-  background-color: white;
-  border-bottom: 4px;
-}*/
+  }*/
