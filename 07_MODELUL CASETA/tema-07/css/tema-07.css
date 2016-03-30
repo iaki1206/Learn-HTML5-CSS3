@@ -73,9 +73,12 @@ td:first-child {
   min-width: 100px;
 }
 
-.meniu-secundar li {
+li > a {
   padding-left: 0;
-  font: 16px bold sans-serif;
+  font: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-decoration: none;
 }
 
 .meniu-secundar, li {
@@ -83,13 +86,13 @@ td:first-child {
   list-style-type: none;
 }
 
-li a::before {
+li > a::before {
   text-decoration: none;
   content: "\00BB"
 
 }
 
-li:hover {
+.c3f a:hover {
   border-bottom: 1px;
   color: #156711;
 }
