@@ -41,11 +41,10 @@ nav a {
   border-bottom: 4px solid #A95486;
 }
 
-a:active {
+/*a:active {
   cursor: default;
   background-color: transparent;
-
-}
+}*/
 
 .active:first-child {
   background-color: #E6F2E5;
@@ -74,21 +73,20 @@ td:first-child {
   min-width: 100px;
 }
 
-.meniu-secundar {
+.meniu-secundar li {
   padding-left: 0;
-  font: 16px 600 sans-serif;
+  font: 16px bold sans-serif;
 }
 
 .meniu-secundar, li {
   padding: 4px 0 4px 0;
-}
-
-li a {
-  text-decoration: none;
+  list-style-type: none;
 }
 
 li a::before {
+  text-decoration: none;
   content: "\00BB"
+
 }
 
 li:hover {
