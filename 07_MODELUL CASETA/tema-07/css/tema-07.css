@@ -17,7 +17,6 @@ src: url("../niconne/Niconne-Regular.ttf");
 font-size: 40px;
 font-weight: bold;
 font-family: Niconne;
-padding: 5px 10px 5px 10px;
 }
 
 .c2b {
@@ -36,49 +35,47 @@ nav a {
   margin: 0 5px 0 5px;
 }
 
+.c3f h1 {
+  padding: 0 0 10px 15px;
+  border-bottom: 2px solid #156711;
+}
+
 .active:hover {
   cursor: pointer;
   border-bottom: 4px solid #A95486;
 }
 
-/*a:active {
-  cursor: default;
-  background-color: transparent;
-}*/
-
-.active:first-child {
+.active a:first-child {
   background-color: #E6F2E5;
 }
 
-td {
-padding: 5px;
-vertical-align: top;
-}
-
-main {
-  margin: 2px 10px 0px 10px;
-  background-color: #fff;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-td {
+.active td {
   padding: 5px;
   vertical-align: top;
 }
 
+h1 {
+  margin: 0px;
+  padding: 0 15px 0 15px;
+}
+
+main {
+  margin: 10px 0px 0px 0px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px 5px 0 10px;
+}
+
 td:first-child {
   width: 15%;
-  text-align: center;
   min-width: 100px;
+  vertical-align: top;
 }
 
 li > a {
-  padding-left: 0;
-  font: 16px;
+  font-size: 16px;
   font-weight: 600;
   font-family: sans-serif;
-  text-decoration: none;
 }
 
 .meniu-secundar, li {
@@ -89,10 +86,42 @@ li > a {
 li > a::before {
   text-decoration: none;
   content: "\00BB"
-
 }
 
 .c3f a:hover {
   border-bottom: 1px;
   color: #156711;
+}
+
+section {
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.c3b  {
+  border-top: 1px solid #156711;
+  border-bottom: 1px solid #156711;
+}
+
+
+/*PRODUSE*/
+.produs, td:first-child {
+  vertical-align: middle;
+}
+
+.produs img {
+  border-radius: 50px;
+}
+
+
+/*COMENZI*/
+
+.comenzi {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+section h2, p {
+  margin-left: 15px;
+  padding: 2px;
 }
