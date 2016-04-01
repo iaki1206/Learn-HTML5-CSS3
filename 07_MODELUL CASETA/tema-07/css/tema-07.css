@@ -66,11 +66,11 @@ main {
   padding: 10px 5px 0 10px;
 }
 
-td:first-child {
+/*td:first-child {
   width: 15%;
   min-width: 100px;
   vertical-align: top;
-}
+}*/
 
 li > a {
   font-size: 16px;
@@ -78,14 +78,16 @@ li > a {
   font-family: sans-serif;
 }
 
-.meniu-secundar, li {
+/.meniu-secundar, li {
   padding: 4px 0 4px 0;
   list-style-type: none;
+
 }
 
 li > a::before {
   text-decoration: none;
   content: "\00BB"
+  vertical-align: text-top;
 }
 
 .c3f a:hover {
@@ -103,8 +105,22 @@ section {
   border-bottom: 1px solid #156711;
 }
 
+.dr {
+  vertical-align: top;
+  margin: 0 0 435px 0;
+  width: 185px;
+  height: 185px;
+}
+
+.prim td {
+  width: 10% 90%;
+}
+
+
+
 
 /*PRODUSE*/
+
 .produs, td:first-child {
   vertical-align: middle;
 }
@@ -113,15 +129,22 @@ section {
   border-radius: 50px;
 }
 
+.produs div {
+  margin-left: 15px;
+  padding: 2px;
+}
+
+
+
 
 /*COMENZI*/
 
 .comenzi {
-  border-top: 10px solid transparent;
+  /*border-top: 10px solid transparent;*/
   border-bottom: 10px solid transparent;
 }
 
-section h2, p {
+#s1 #S2, h2, p {
   margin-left: 15px;
   padding: 2px;
 }
