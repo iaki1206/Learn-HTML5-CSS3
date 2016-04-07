@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.t1 .c {
+text-align: center;
+}
+
+.c {
+  width: 320px;
+  padding: 4px;
+  color: white;
+  background-color: gray;
+}
+
+.t1 {
+  width: 320px;
+  padding: 4px;
+}

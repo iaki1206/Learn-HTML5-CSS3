@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>08-14 Comanda Pizza</title>
+		<link rel="stylesheet" href="css/08-14.css">
+	</head>
+	<body>
+		<h1>Comanda Pizza</h1>
+
+		<form class="tb" action="mailto:cineva@domeniu.ro" method="post" name="comanda">
+			<datalist id="bauturi">
+				<option value="Cola">
+				<option value="Mirinda">
+				<option value="Apa plata">
+			</datalist>
+			<div class="tr">
+				<label class="tc">Tip: </label>
+				<select class="tc" name="tip" autofocus>
+					<optgroup label="Pizza neapoletana">
+						<option value="mg">Pizza margherita</option>
+						<option value="mr">Pizza marinara</option>
+					</optgroup>
+					<optgroup label="Pizza lazio">
+						<option value="cp" selected>Pizza capricciosa</option>
+						<option value="qf">Pizza quattro fromaggi</option>
+						<option value="qs">Pizza quatro stagioni</option>
+						<option value="vi">Pizza viennese</option>
+					</optgroup>
+				</select>
+			</div>
+			<div class="tr">
+				<label class="tc" for="baututura">Bautura preferata:</label>
+				<input class="tc" type="text" list="bauturi" name="bautura">
+			</div>
+		</form>
+	</body>
+</html>
