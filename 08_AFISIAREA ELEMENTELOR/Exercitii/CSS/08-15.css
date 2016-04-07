@@ -1,0 +1,21 @@
+.ib {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tb {
+  display: table;
+}
+
+.tr {
+  display: table-row;
+}
+
+.tc {
+  display: table-cell;
+}
+
+.tr:last-child
+.tc:last-child {
+  width: 160px;
+}
