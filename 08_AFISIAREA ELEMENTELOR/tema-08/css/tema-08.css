@@ -1,0 +1,188 @@
+/*Setari generale*/
+
+.left, .right, .center {
+  text-align: center;
+}
+
+body {
+  padding: 1%;
+  background-image: url(../img/japanese-cherry-tree.jpg);
+  background-attachment: fixed;
+}
+
+
+/*Setari stiluri meniuri*/
+
+.meniu a {
+  font: bold 14px Arial;
+  display: block;
+  padding: 2px 4px;
+  text-decoration: none;
+  color: #9B6700;
+}
+
+.c2b .meniu, a {
+  list-style-type: none;
+}
+
+.c3f .meniu-secundar, a {
+  list-style-type: none;
+}
+
+.c3f, h1 {
+  padding: 10px;
+}
+
+.c3f, ul {
+  padding: 10px;
+}
+
+.meniu a:hover {
+  background-color: #9B6700;
+  color: #FFCA64;
+  border-radius: 4px;
+}
+
+
+/*Setari pentru header*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 620px;
+  align-items: center;
+}
+
+.flex-item {
+  align-items: center;
+  min-width: 190px;
+  text-align: center;
+  flex-grow: 0;
+}
+
+.serch {
+  flex-grow: 1;
+}
+
+button {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  height: 25px;
+}
+
+.cautare {
+  height: 25px;
+  margin: 0 -5px;
+  width: calc(90% - 25px);
+}
+
+
+/*Setari pentru containerul nav*/
+
+nav {
+  text-align: center;
+  margin: 0;
+  min-width: 620px;
+}
+
+.c3f, ul {
+  padding: 3px 0;
+  margin: 0 2px;
+}
+
+.meniu li {
+  display: inline-block;
+}
+
+.active {
+  background-color: #FFEAC2;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #FFEAC2;
+  color: #9B6700;
+  cursor: default;
+}
+
+
+/*Setari pentru continut*/
+
+main {
+  margin: 40px 15%;
+  border-radius: 10px;
+  padding: 0 15px 15px 15px;
+}
+
+aside {
+  display: inline-block;
+  min-width: 110px;
+  width: 10%;
+  vertical-align: top;
+}
+
+article {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+}
+
+section img {
+  display: inline-block;
+  margin: 0;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 80px;
+}
+
+section p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: default 0;
+  width: calc(100% - 85px);
+}
+
+
+/*Setari pentru pagina produse*/
+
+.produse p {
+  width: 100%;
+  text-align: justify;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -moz-column-rule: 1px solid #9B6700;
+  -webkit-column-rule: 1px solid #9B6700;
+  column-rule: 1px solid #9B6700;
+}
+
+
+/*Setari pentru pagina de comenzi*/
+
+.comenzi h2 {
+  margin-left: 5px;
+}
+
+.comenzi p {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  width: calc(50% - 12px);
+  text-align: justify;
+}
+
+/*Setari pentru pagina de comenzi*/
+
+.comenzi h2 {
+  margin-left: 5px;
+}
+
+.comenzi p {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  width: calc(50% - 12px);
+  text-align: justify;
+}

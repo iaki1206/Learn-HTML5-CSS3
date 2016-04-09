@@ -1,0 +1,117 @@
+.color-primary-0 { color: #FFA900 }	/* Main Primary color */
+.color-primary-1 { color: #FFCA64 }
+.color-primary-2 { color: #FFBC39 }
+.color-primary-3 { color: #C68300 }
+.color-primary-4 { color: #9B6700 }
+
+
+@font-face {
+    font-family: "Niconne";
+    src:  url("../fonts/niconne/Niconne-Regular.ttf");
+}
+
+.c1b {
+    background-color: #FFA900;
+}
+
+.c1f {
+    color:  #FFD480;
+}
+
+header .logo {
+    min-width: 210px !important;
+    font: bold 40px "Niconne";
+    letter-spacing: 2px;
+}
+
+
+.c2b, .c3b {
+    background-color: #FFCA64;
+}
+
+.c2f, .c3f,
+.c3f h1, .c3f h2 {
+    color: #9B6700;
+
+}
+
+
+.c3f h1, .c3f h2  {
+    margin: 0;
+}
+
+.c3f h2 {
+    border-bottom: 1px solid #9B6700;
+}
+
+.meniu-secundar {
+    margin: 5px;
+    padding: 2px;
+}
+
+.meniu-secundar a::before  {
+    content: "\00BB";
+    padding-right: 0.25em;
+}
+
+
+section:target {
+    background-color: #FFEAC2;
+}
+
+main, aside, article {
+    background-color: #FFB;
+}
+
+
+section {
+    padding: 2px 15px;
+    border-radius:  4px;
+}
+
+
+footer {
+    border-top: 1px solid #9B6700;
+    border-bottom: 1px solid #9B6700;
+    margin: 15px 0;
+}
+
+
+.contact {
+    min-width: 300px;
+}
+
+
+.contact img {
+    width:  240px;    
+}
+
+.contact i {
+    padding-right: 0.25em;
+}
+
+.contact .itbl {
+    margin: 2px;
+    display: inline-table;
+    vertical-align: top;
+    width: 23%;
+    min-width: 240px;
+    border-collapse: collapse;
+}
+
+.contact .caption {
+    display: table-caption;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact .row {
+    display: table-row;
+}
+
+
+.contact .cell {
+    display: table-cell;
+    padding: 2px;
+}
